@@ -17,7 +17,9 @@ console.log(fourthTeacher);
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.pop();
+console.log(lastTeacher);
+
 
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
@@ -37,7 +39,7 @@ const lewisIndex = null;
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = teachers.toString();
+const teachersString = teachers.toString() + "   " + teachers.join(",");
 console.log(teachersString);
 
 
